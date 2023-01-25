@@ -1,11 +1,11 @@
+<h2>Descrição</h2>
+<p>Meu portfólio:criado para mostrar meus projetos desenvolvidos .</p>
 
 <div style="display: inline_block">
 
 <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
 <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
-  
-  
   
 </div>
 
@@ -17,7 +17,3 @@
 <a href="https://vercel.com/williamsouzatx-gmailcom/portfolio/Gby6pXxELufFZs88xM61CECRgikD" target="_blank"><img src="https://img.shields.io/badge/-Portf%C3%B3lio-brown?style=for-the-badge&logo=true" target="_blank"></a>
   
 </div>
-
-<h2>Descrição</h2>
-<p>Meu portfólio:criado para mostrar os projetos proprios em desenvolvimento.</p>
-
