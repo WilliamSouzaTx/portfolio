@@ -1,4 +1,4 @@
-<h1>:blue_car: <a href="https://portfolio-williamsouzatx-gmailcom.vercel.app/"> Portfólio </a></h1>
+<h1><a href="https://portfolio-williamsouzatx-gmailcom.vercel.app/"> Portfólio </a></h1>
 
 <div style="display: inline_block">
 
