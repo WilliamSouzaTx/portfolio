@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Righteous&family=Sarala&family=Ubuntu&display=swap');
+
+:root{
+    --main-color:#b08760;
+    --black:#101010;
+    --bg:#101010;
+    --border:.1rem solid rgba(255,255,255,.3);
+}
+
+*{
+    font-family:'Ubuntu', sans-serif;
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+    border-radius: 5rem;
+}
+
+body{
+    background: var(--bg);
+}
+
+section{
+    padding:2rem 7%;
+}
+
+.header{
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+}
+.header .logo p{
+    color:#fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+.header .logo p:hover{
+    color:var(--main-color);
+}
+    
+.header .navbar a{
+    margin-left: 10rem;
+    font-size: 1.8rem;
+    color:#fff;
+}
+
+.header .navbar a:hover{
+    color:var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
+.header .icons div{
+    color:#fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+
+.header .icons div:hover{
+    color:var(--main-color);
+}
+
+#menu-btn{
+    display: none;
+}
+
+
+.inicio{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(../images/home-img.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.inicio .container{
+    max-width: 60rem;
+}
+
+.inicio .container h3{
+    font-size: 6rem;
+    color:#fff;
+}
+
+.inicio .container p{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding:1rem 0;
+    color:#eee;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    margin-right: 2rem;
+    font-size: 1.7rem;
+    color:#fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+}
+
+
+.sobre .container{
+    display: flex;
+    align-items: center;
+    background:var(--black);
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+}
+
+.sobre .titulo{
+    text-align: center;
+    color:var(--main-color);
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-top: 6rem;
+    line-height: 1.0;
+    font-family: 'Righteous', cursive;
+}
+
+.sobre .container .conteudo{
+    flex:1 1 45rem;
+    padding:2rem;
+    margin-bottom: 8rem;
+}
+
+
+.sobre .container .conteudo p{
+    font-size: 2.3rem;
+    color:#ccc;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+
+.sobre .container .card-imagem img {
+    margin-bottom: 12rem;
+}
+
+.sobre .container .card-imagem-2 img {
+    display: none;
+}
+
+.experiencia .container{
+    display: flex;
+    align-items: center;
+    background:var(--black);
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+}
+
+.experiencia .titulo{
+    text-align: center;
+    color:var(--main-color);
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-top: 6rem;
+    line-height: 1.0;
+    font-family: 'Righteous', cursive;
+}
+
+.experiencia .container .conteudo{
+    flex:1 1 45rem;
+    padding:2rem;
+    margin-bottom: 8rem;
+}
+
+
+.experiencia .container .conteudo p{
+    font-size: 2.3rem;
+    color:#ccc;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+
+.experiencia .container .imagem img {
+    margin-bottom: 6rem;
+}
+
+.projetos .titulo {
+    padding-top: 2rem;
+    text-align: center;
+    color:var(--main-color);
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+    font-family: 'Righteous', cursive;
+}
+
+.projetos .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.projetos .container .card .imagem {
+    height: 25rem;
+    overflow:hidden;
+    width: 100%;
+}
+
+.projetos .container .card .imagem img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.projetos .container .card:hover .imagem img{
+    transform: scale(1.2);
+}
+
+.projetos .container .card .content {
+    padding:2rem;
+    position: relative;
+    height: 13rem;
+    overflow: hidden;
+}
+
+.container .card {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    background: #191919;
+}
+
+.container .card .content:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background: linear-gradient(transparent,#191919);
+}
+
+.title {
+    font-size: 2rem;
+    line-height: 1.5;
+    color:#fff;
+}
+
+.title:hover{
+    color:var(--main-color);
+}
+
+
+.projetos .container .card .content p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color:#ccc;
+    padding:1rem 0;
+}
+
+.more{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    margin-right: 2rem;
+    font-size: 1.7rem;
+    color:#fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+.more:hover{
+    letter-spacing: .2rem;
+}
+
+.more::before {
+    content: 'ler menos'
+}
+.active .more::before {
+    content: 'ler menos'
+}
+
+.more::before {
+    content: 'ler mais'
+}
+
+.active .more {
+    background: #bc9c76;
+    color: white;
+   
+}
+
+.container .card.active .content{
+    height: auto;
+}
+.container .card.active .content::before{
+    display: none;
+}
+
+
+.footer{
+    background:var(--black);
+    text-align: center;
+}
+
+.footer .share{
+    padding:1rem 0;
+}
+
+.footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color:#fff;
+    border:var(--border);
+    margin:.3rem;
+    border-radius: 50%;
+}
+
+.footer .share a:hover{
+    background-color: var(--main-color);
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    gap:1rem;
+}
+
+.footer .links a{
+    padding:.7rem 2rem;
+    color:#fff;
+    border:var(--border);
+    font-size: 2rem;
+}
+
+.footer .links a:hover{
+    background:var(--main-color);
+}
+
+.footer .creditos{
+    font-size: 3rem;
+    color:#fff;
+    font-weight: lighter;
+    padding:1.5rem;
+    font-family: 'Great Vibes', cursive;
+}
+
+.footer .creditos span{
+    color:var(--main-color);
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+}
+
+/* media queries  */
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    .header{
+        padding:1.5rem 2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+
+    .sobre .container-2 .card {
+        margin: auto;
+    }
+
+}
+
+@media (max-width:768px){
+
+    #menu-btn{
+        display: inline-block;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top:100%; right: -100%;
+        background:var(--bg);
+        width: 30rem;
+        height: 100vh;
+        border-top: var(--border);
+    }
+    
+
+    .header .navbar.active{
+        right:0;
+    }
+
+    .header .navbar a{
+        color:#fff;
+        display: block;
+        margin:1.5rem;
+        padding:.8rem;
+        font-size: 2.5rem;
+    }
+    
+    .sobre .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sobre .container .card-imagem img {
+        display: none;
+    }
+    
+    .sobre .container .card-imagem-2 img {
+        display: block;
+    }
+    .experiencia .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:500px){
+.inicio{
+    background-position: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.inicio .container h3{
+    font-size: 4.5rem;
+}
+
+.inicio .container p{
+    font-size: 2rem;
+}
+.sobre .container-2 .conteudo h3 {
+    text-align: center;
+}
+.sobre .container-2 .conteudo p{
+    font-size: 2rem;
+}
+
+.experience .box p{
+    font-size: 1.8rem;
+}
+.experience .conteudo{
+    margin-top: 2rem;
+}
+.container .card {
+    margin: 0 auto;
+}
+
+
+}
+
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+}
