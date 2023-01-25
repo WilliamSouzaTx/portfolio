@@ -10,7 +10,7 @@
   
 </div>
 
-<img src ="![portfolio imagem](https://user-images.githubusercontent.com/118509267/214541624-52009430-a990-48dc-9079-7c3019c27e46.png)" />
+![portfolio imagem](https://user-images.githubusercontent.com/118509267/214541624-52009430-a990-48dc-9079-7c3019c27e46.png)
 
 <div style="display: inline_block">
   
