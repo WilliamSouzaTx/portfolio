@@ -1,5 +1,5 @@
 <h2>Descrição</h2>
-<p>Meu portfólio:criado para mostrar meus projetos desenvolvidos .</p>
+<p>portfólio criado para mostrar meus projetos desenvolvidos .</p>
 
 <div style="display: inline_block">
 
